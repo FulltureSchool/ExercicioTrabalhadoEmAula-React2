@@ -1,0 +1,60 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-color: rgb(161, 138, 255);
+}
+li.tarefa {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 300px;
+  height: 30px;
+  background-color: white;
+  border-radius: 15px;
+  margin-block: 10px;
+  padding: 10px;
+  padding-inline: 20px;
+}
+
+.cor {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.input input {
+  width: 400px;
+  height: 50px;
+  border-radius: 15px;
+  border: 0px;
+  padding-inline: 30px;
+}
+.input input:focus {
+  outline: none;
+}
+
+.lixeira {
+  cursor: pointer;
+  font-size: 22px;
+  color: rgb(161, 138, 255);
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 60px;
+  height: 20px;
+  align-items: center;
+  overflow: visible;
+}
+
+.circle-check,
+.check-icon {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
